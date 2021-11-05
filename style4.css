@@ -1,0 +1,151 @@
+body { 
+    font-family: 'Overpass', sans-serif;
+    text-transform: uppercase; 
+    color: #fff;
+  }
+  
+  h2 {
+    font: 700 36px 'Oswald', sans-serif;
+    text-align: center;
+    color: rgb(255, 255, 255);
+  }
+  
+  .header-span {
+    display: block;
+    font-weight: 100;
+  }
+  
+  hr { 
+    max-width: 5em; 
+    margin-bottom: 30px; 
+  }
+  
+  .products {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  div.shape {
+    display: inline-block;
+    position: relative;
+    height: 250px;
+    width: 250px;
+    margin: 10px ;
+    padding: 3px;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+    overflow: hidden;  
+    border-radius: 50%;
+    border-collapse: separate; 
+    background-color: #222;
+  }
+  
+  .shape:focus,
+  .shape:active,
+  .shape:hover {
+    border-radius: 50%;
+    outline: none;
+  } 
+  
+  .product-1, .product-2, .product-3, .product-4, .product-5, .product-6 {
+    height: 250px;
+    width: 250px;
+    background-size: cover;
+    transition: all .2s ease-in-out;
+    transform: scale(1.5); 
+    outline: none;
+    overflow: hidden;  
+    clip-path: polygon(0 100%, 0 0, 52% 0, 52% 100%);
+    clip-path: polygon(0 100%, 0 0, 100% 0, 100% 100%);
+  }
+  
+  
+  .shape:hover .product-1 {
+    clip-path: polygon(50% 100%, 50% 0, 100% 0, 100% 100%);
+    transform: scale(1.1);
+    
+  }
+.shape:hover .product-2 {
+    clip-path: polygon(50% 100%, 50% 0, 100% 0, 100% 100%);
+    transform: scale(1.1);
+}
+
+.shape:hover .product-3 {
+    clip-path: polygon(50% 100%, 50% 0, 100% 0, 100% 100%);
+    transform: scale(1.1);
+}
+.shape:hover .product-4 {
+    clip-path: polygon(50% 100%, 50% 0, 100% 0, 100% 100%);
+    transform: scale(1.1);
+}
+.shape:hover .product-5 {
+    clip-path: polygon(50% 100%, 50% 0, 100% 0, 100% 100%);
+    transform: scale(1.1);
+}
+.shape:hover .product-6 {
+    clip-path: polygon(50% 100%, 50% 0, 100% 0, 100% 100%);
+    transform: scale(1.1);
+}
+
+  .shape:hover .description-holder { 
+    left: 20px;
+    opacity: 1;
+  }
+  
+  .description-holder {
+    position: absolute;
+    top: 35px;
+    left: 120px;
+    height: 300px;
+    width: 100px;
+    transition: all .4s ease-in-out;
+    transition-delay: .1s;
+    opacity: 0;
+    text-align: right;
+  }
+  
+ 
+  
+  .description-holder h4 {
+    font-size: 14px;
+    margin-bottom: -8px;
+  }
+  
+  .description-holder p {
+    max-width: 100px;
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: none;
+    
+  }
+  
+  .product-1{
+    background-image: url('https://p7.hiclipart.com/preview/733/208/1010/physician-medicine-health-care-medical-diagnosis-clinic-doctor-prescribe-doctor-s-advice.jpg');
+    background-position:0,0;
+    
+  }
+  
+  .product-2 {
+    background-image: url('https://th.bing.com/th/id/R.503c6854c0ddc6c5ebc0120331c3d2b7?rik=HH%2bttV1C%2b6x84A&riu=http%3a%2f%2fmedia.gettyimages.com%2fvectors%2fvaccination-shot-in-the-arm-vector-id490639522%3fs%3d612x612&ehk=41%2b9GglYPg2wzcE0xYp5poOE0FpFtgfnCOCxmafWDMI%3d&risl=&pid=ImgRaw&r=0');
+  }
+  
+  .product-3 {
+    background-image: url('https://media.istockphoto.com/vectors/healthy-lifestyle-round-emblem-vector-id612236386');
+    background-position: 50% 90%;
+  }
+  
+  .product-4 {
+    background-image: url('https://st2.depositphotos.com/1007027/10681/i/950/depositphotos_106810088-stock-photo-kids-and-babies-group-circle.jpg');
+    background-position: 50% 90%;
+  }
+  
+  .product-5 {
+    background-image: url('https://i.pinimg.com/originals/20/94/32/209432748a132cf7ce7227a523608b03.jpg');
+    background-position: 50% 70%;
+  }
+  
+  .product-6{
+    background-image: url('https://www.freepngimg.com/thumb/first_aid_kit/29849-1-first-aid-kit-transparent-image.png');
+    background-position: 50% 90%;
+  }
